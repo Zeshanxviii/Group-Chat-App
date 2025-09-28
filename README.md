@@ -7,3 +7,6 @@
 - ✅ Graceful client disconnect handling
 - ⚡ Built with **native WebSocket API** using the [`ws`](https://www.npmjs.com/package/ws) library
 - 🧱 No `Socket.IO` — fully based on the WebSocket protocol
+
+
+![WebSocket Chat Demo](./frontend/public/websocket.gif)
