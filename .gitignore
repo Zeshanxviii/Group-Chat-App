@@ -1,0 +1,34 @@
+# General
+node_modules/
+dist/
+build/
+.env
+.env.* 
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Frontend specific (React + TypeScript)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+# Backend specific (Node + Express + TypeScript)
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+
+# TypeScript
+**/*.tsbuildinfo
+
+# Testing
+coverage/
+**/coverage/
+
+# OS / IDE / Editor
+*.swp
+*.swo
+Thumbs.db
