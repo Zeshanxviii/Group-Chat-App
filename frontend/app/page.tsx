@@ -70,10 +70,10 @@ export default function ChatRoom() {
       <p>Status: {connected ? ' Connected' : ' Disconnected'}</p>
       <p>Current Room: {roomCode || 'None'}</p>
 
-      <div style={{ marginBottom: 12 }}>
-        <button onClick={handleCreate}>Create Room</button>
-        <button onClick={handleJoin}>Join Room</button>
-        <button onClick={handleLeave}>Leave Room</button>
+      <div className='flex flex-col gap-2' style={{ marginBottom: 12 }}>
+        <button className='bg-green-500' onClick={handleCreate}>Create Room</button>
+        <button className='bg-amber-400' onClick={handleJoin}>Join Room</button>
+        <button className='bg-red-500' onClick={handleLeave}>Leave Room</button>
       </div>
 
       <div

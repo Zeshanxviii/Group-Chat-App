@@ -101,7 +101,8 @@ function handleMessage(ws, params) {
     params: {
       message: params.message
     }
-  }, ws); // exclude the sender (optional)
+  }); // exclude the sender (optional)
+  //ws varaible as the third argument to exclude the sender
 }
 
 function generalInformation(ws) {
